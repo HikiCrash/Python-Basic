@@ -1,4 +1,4 @@
-# (a,d) (c,e,f)  (b,g) 주소값 같음
+# (a,d) (c,e,f) (b,g) 주소값 같음
 a = int(1) # a = 1
 b = str("python") # b = "python"
 c = float(1.5) # c = 1.5
