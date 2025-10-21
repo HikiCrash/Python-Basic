@@ -32,7 +32,7 @@ print("-" * 60)
 
 # 원본 손상없이 reverse()를 하려면?
 cars = ["audi", "tesla", "benz", "kia", "lincoln", "hyundai"]
-cars_copy = cars[:]  # 복사
-cars_copy.reverse()
-print(cars)
-print(cars_copy)
+cars_copy = cars[:]  # 복사, [:]은 전체 범위
+cars_copy.reverse() # 복사본 손상
+print(cars) # ['audi', 'tesla', 'benz', 'kia', 'lincoln', 'hyundai'] 원본 손상 없음
+print(cars_copy) # ['hyundai', 'lincoln', 'kia', 'benz', 'tesla', 'audi']
