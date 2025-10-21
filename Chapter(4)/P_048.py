@@ -1,4 +1,4 @@
-# p038 대응
+# P_038.py 대응
 
 for hitcount in range(0, 10, 1): # range(10)과 동일 0~9
     print(f"나무를 {hitcount}번 찍었습니다.")
