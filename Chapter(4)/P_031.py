@@ -1,4 +1,4 @@
-#P_030에 else를 추가한 버전
+# P_030.py에 else를 추가한 버전
 
 soc_number = input("주민등록번호:")
 gender = int(soc_number[7]) % 2
