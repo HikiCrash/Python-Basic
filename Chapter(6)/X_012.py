@@ -117,14 +117,14 @@ print(find(names, "이")) # None
 
 def find(target, cmplist):
     # return target in cmplist
-    # if target in cmplist:
+    if target in cmplist:
         return True
-    # else:
+    else:
         return False
     
 names = ["김", "이", "박"]
 print(find("이", names))
-# print(find(names, "이"))
+# print(find(names, "이")) 에러
 
 
 #함수 응용2
